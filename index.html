@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/grillstyle.css">
+    <title>Grill Master</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="selectorContainer">
+            <select id="selectStrategy">
+                <option value="Big First">Big first</option>
+                <option value="Small First">Small first</option>
+            </select>
+            <button type="button" id="putFoodBtn">Put food!</button>
+            <button type="button" id="clearBtn">Clear</button>
+        </div>
+        <div class="wrapperInfo">
+            <div id="colorCode">
+                <p class="steakCode">Steak &nbsp<span style="background-color:5F021F;"> &nbsp &nbsp &nbsp</span> </p>
+                <p class="sausageCode">Sausage &nbsp<span style="background-color:FE642E;"> &nbsp &nbsp &nbsp</span></p>
+                <p class="tomatoCode">Tomato &nbsp<span style="background-color:FF0000;"> &nbsp &nbsp &nbsp</span></p>
+                <p id="vealCode">Veal &nbsp<span style="background-color:FA5882;"> &nbsp &nbsp &nbsp</span></p>
+            </div>            
+            <div class="infoContainer">
+                <p>Area used:
+                    <span id="areaUsed"></span>
+                </p>
+                <p>Area not used:
+                    <span id="areaNotUsed"></span>
+                </p>
+                <p>Food not put: <span id="foodNotPut"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="js/drawingManager.js"></script>
+<script src="js/rectangle.js"></script>
+<script src="js/grill.js"></script>
+<script src="js/food.js"></script>
+<script src="js/main.js"></script>
+
+</html>

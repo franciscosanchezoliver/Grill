@@ -1,0 +1,34 @@
+{
+    "grill": {
+        "width": 20,
+        "height": 15,
+        "grillitems": {
+            "grillitem": [
+                {
+                    "width": 5,
+                    "height": 4,
+                    "count": 6,
+                    "title": "Steak"
+                },
+                {
+                    "width": 8,
+                    "height": 2,
+                    "count": 5,
+                    "title": "Sausage"
+                },
+                {
+                    "width": 3,
+                    "height": 3,
+                    "count": 4,
+                    "title": "Tomato"
+                },
+                {
+                    "width": 4,
+                    "height": 3,
+                    "count": 8,
+                    "title": "Veal"
+                }
+            ]
+        }
+    }
+}
